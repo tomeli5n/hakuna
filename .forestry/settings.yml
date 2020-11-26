@@ -6,6 +6,14 @@ webhook_url:
 sections:
 - type: heading
   label: Talleres
+- type: document
+  path: primera-huerta.md
+  label: Primera huerta
+  match: "**/*"
+- type: document
+  path: diseño.md
+  label: Diseño Indumentaria / Urbanismo
+  match: "**/*"
 - type: directory
   path: content/posts
   label: Posts

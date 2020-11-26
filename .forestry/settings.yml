@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: heading
@@ -9,11 +9,9 @@ sections:
 - type: document
   path: primera-huerta.md
   label: Primera huerta
-  match: "**/*"
 - type: document
   path: diseño.md
   label: Diseño Indumentaria / Urbanismo
-  match: "**/*"
 - type: directory
   path: content/posts
   label: Posts
